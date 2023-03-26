@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json|tsx|jsx)\"",
-    "release": "standard-version"
+    "release": "standard-version",
+    "publish": "npm publish --workspace @hazem/eslint-config-react"
   },
   "keywords": [
     "eslint"
