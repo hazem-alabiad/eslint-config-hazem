@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hazem",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "ESlint custom rules",
   "main": "index.js",
   "scripts": {
