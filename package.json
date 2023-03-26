@@ -1,13 +1,12 @@
 {
-  "name": "@hazem/eslint-config-react",
-  "version": "0.0.2",
+  "name": "eslint-config-hazem-alabiad",
+  "version": "0.0.3",
   "description": "ESlint custom rules",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json|tsx|jsx)\"",
-    "release": "standard-version",
-    "publish": "npm publish --workspace @hazem/eslint-config-react"
+    "release": "standard-version"
   },
   "keywords": [
     "eslint"
