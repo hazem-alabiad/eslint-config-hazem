@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hazem-alabiad",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESlint custom rules",
   "main": "index.js",
   "scripts": {
