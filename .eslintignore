@@ -1,3 +1,4 @@
 # general
 node_modules
 !.storybook
+index.js
