@@ -1,7 +1,7 @@
-module.exports =  {
+module.exports = {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
   },
   "extends": [
     "eslint:recommended",
@@ -14,7 +14,7 @@ module.exports =  {
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
-    "prettier"
+    "prettier",
   ],
   "parser": "@typescript-eslint/parser",
   "root": true,
@@ -22,16 +22,16 @@ module.exports =  {
   "settings": {
     "eslint.packageManager": "yarn",
     "react": {
-      "version": "detect"
-    }
+      "version": "detect",
+    },
   },
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
     "project": "./tsconfig.json",
     "ecmaFeatures": {
-      "jsx": true
-    }
+      "jsx": true,
+    },
   },
   "plugins": [
     "react",
@@ -40,7 +40,7 @@ module.exports =  {
     "formatjs",
     "prettier",
     "unused-imports",
-    "simple-import-sort"
+    "simple-import-sort",
   ],
   "rules": {
     // -----------------------------------------------------
@@ -53,8 +53,8 @@ module.exports =  {
       "error",
       {
         "namedComponents": "arrow-function",
-        "unnamedComponents": "arrow-function"
-      }
+        "unnamedComponents": "arrow-function",
+      },
     ],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-wrap-multilines": "off",
@@ -76,8 +76,8 @@ module.exports =  {
     "formatjs/enforce-id": [
       "error",
       {
-        "idInterpolationPattern": "[sha512:contenthash:base64:6]"
-      }
+        "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+      },
     ],
     "formatjs/no-emoji": "error",
     "formatjs/no-literal-string-in-jsx": "error",
@@ -85,8 +85,8 @@ module.exports =  {
     "formatjs/no-complex-selectors": [
       "error",
       {
-        "limit": 3
-      }
+        "limit": 3,
+      },
     ],
     // -----------------------------------------------------
     // Linting ---------------------------------------------
@@ -102,20 +102,16 @@ module.exports =  {
       "error",
       {
         "max": 2,
-        "maxEOF": 1
-      }
+        "maxEOF": 1,
+      },
     ],
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "**/*.stories.tsx",
-          "**/*.test.*",
-          "**/test/*"
-        ]
-      }
+        "devDependencies": ["**/*.stories.tsx", "**/*.test.*", "**/test/*"],
+      },
     ],
     "import/order": "error",
-    "unused-imports/no-unused-imports": "error"
-  }
-}
+    "unused-imports/no-unused-imports": "error",
+  },
+};

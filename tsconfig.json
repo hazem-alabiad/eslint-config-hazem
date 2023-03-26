@@ -7,10 +7,7 @@
     "esModuleInterop": true,
     "isolatedModules": false,
     "jsx": "react-native",
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
