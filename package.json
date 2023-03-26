@@ -39,12 +39,12 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.7",
-    "standard-version": "^9.5.0",
-    "yarn-upgrade-all": "^0.7.2"
+    "prettier": "^2.8.7"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
-    "typescript": "^5.0.2"
+    "standard-version": "^9.5.0",
+    "typescript": "^5.0.2",
+    "yarn-upgrade-all": "^0.7.2"
   }
 }
