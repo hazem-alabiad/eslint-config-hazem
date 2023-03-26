@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/hazem-alabiad/eslint-config-hazem/compare/v0.0.10...v0.0.11) (2023-03-26)
+
+
+### Bug Fixes
+
+* fix linting issues ([ac1f0b7](https://github.com/hazem-alabiad/eslint-config-hazem/commit/ac1f0b72c5153cb8cc0269d56eaf24bd3abae82c))
+
 ### [0.0.10](https://github.com/hazem-alabiad/eslint-config-hazem/compare/v0.0.9...v0.0.10) (2023-03-26)
 
 ### [0.0.9](https://github.com/hazem-alabiad/eslint-config-hazem/compare/v0.0.8...v0.0.9) (2023-03-26)
